@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+transformers
+torch
+moviepy
+opencv-python
+pydantic
+numpy
+scikit-learn
+whisper
+deepgram
