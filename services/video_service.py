@@ -28,7 +28,7 @@ action_recognition = pipeline(
     device=0 if torch.cuda.is_available() else -1,
 )
 
-
+#Extract frames from video
 def extract_frames(video_path, output_folder, fps=1):
     print("Extracting frames...")
     print("output_folder", output_folder)
